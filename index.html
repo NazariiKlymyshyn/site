@@ -2,6 +2,18 @@
 <html lang="ru">
 
 <head>
+  
+  <!--JQuery-->
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"> </script>
+<!--OwlCarousel-->
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"> </script>
+<!--Accordion-->
+
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<link rel="stylesheet" href="js/jquery-ui.js">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>аніме+випічка</title>
   <link rel="stylesheet" href="css/style.css">
@@ -16,7 +28,13 @@
 
 
 
-
+<div class="owl-carousel owl-theme">
+              
+  <div><img src="images/122.jpg"></div>
+  <div><img src="images/333.svg"></div>
+  <div><img src="images/122.jpg"></div>
+  <div><img src="images/333.svg"></div>
+</div>
 
 <audio class="videocenter" controls>
   <source src="audio/1.mp3" type="audio/mpeg">
@@ -75,7 +93,15 @@ Your browser does not support the video tag.
 
       </td>
     </tr>
+    <script>
 
+      $(document).ready(function(){
+    
+        $('.owl-carousel').owlCarousel({loop:true});
+    
+      });
+    
+    </script>
 </body>
 
 </html>
