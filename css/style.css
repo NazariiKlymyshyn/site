@@ -1,0 +1,60 @@
+h1 {
+color: black;
+position:relative;
+text-align: center;
+}
+
+h1 {
+color: blue;
+position:relative;
+text-align: center;
+}
+
+p {
+color: blsck;
+text-align: center;
+}
+
+@font-face {
+
+font-family: "PT Sans Narrow";
+
+src: url("fonts/PTSans-Narrow.eot?") format("eot"), 
+
+url("fonts/PTSans-Narrow.woff") format("woff"), 
+
+url("fonts/PTSans-Narrow.ttf") format("truetype"), 
+
+url("fonts/PTSans-Narrow.svg#PTSansNarrow") format("svg"), 
+
+url("fonts/PTSans-Narrow.otf") format("opentype");
+
+}
+
+
+body {
+color: black;
+font-family: 'PT Sans Narrow', sans-serif;	
+
+}
+
+.text-col {
+   background: -webkit-linear-gradient(#600000, #edffd2);
+}
+.text-col em {
+  color: #fff058;
+  background: -webkit-linear-gradient(#fff059, #000000);
+
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.videocenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
